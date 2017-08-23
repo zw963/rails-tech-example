@@ -18,7 +18,7 @@
         <td><%= post.content %></td>
         <td><%= link_to '详情', post %></td>
         <td><%= link_to '编辑', edit_post_path(post) %></td>
-        <td><%= link_to '删除1', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to '删除', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
